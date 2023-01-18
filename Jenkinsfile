@@ -21,13 +21,13 @@ pipeline {
 			       }
 				   
 				}
-    		
-
-               
-                  
-
-		  
-      }
+    	   }
+                     stage('Deploy application') {
+                  steps {
+                        build job: 'Application-Deployment-Job'
+              }
+         }      
           
       }
 }
+
