@@ -14,22 +14,20 @@ pipeline {
                   }
             
             post {
-			    success {
-                    echo "Strating the archive process"
-					archiveArtifacts artifacts: '**/*.war'
+	         success {
+                            echo "Strating the archive process"
+			    archiveArtifacts artifacts: '**/*.war'
 					
 			       }
 				   
 				}
-    		}
+    		
 
-               stage('Deploy application') {
-                  steps {
-                        build job: 'APPLICATION-DEPLOYMENT-JOB'
-                    
-                  }
+               
+                  
 
-		  }		  
+		  
+      }
           
       }
 }
