@@ -22,7 +22,10 @@ pipeline {
 				   
 	    }
          }      
-          
+            stage('Deploy application') {
+                  steps {
+                        build job: 'application-deployment'
       }
 }
-
+      }
+}
