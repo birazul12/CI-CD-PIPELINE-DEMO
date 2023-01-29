@@ -170,3 +170,4 @@ wget http://54.209.36.115/nagiosxi/includes/configwizards/docker/plugins/check_d
   validating emplimentation webhook
   PollSCM validation
 ansible integration testing of Jenkins
+jenkins docker and ansible integration 
