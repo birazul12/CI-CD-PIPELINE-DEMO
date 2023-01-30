@@ -171,3 +171,4 @@ wget http://54.209.36.115/nagiosxi/includes/configwizards/docker/plugins/check_d
   PollSCM validation
 ansible integration testing of Jenkins
 jenkins docker and ansible integration 
+Let's see kubernetes deployment and service trigger from ansible server
